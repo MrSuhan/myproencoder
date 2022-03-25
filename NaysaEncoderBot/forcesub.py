@@ -42,7 +42,7 @@ async def handle_force_subscribe(bot, message):
     except Exception:
         await bot.send_message(
             chat_id=message.from_user.id,
-            text="Something Went Wrong. Contact My [Support Group](https://t.me/Tellybots_4u).",
+            text="Something Went Wrong. Contact My [Support Group](https://t.me/Anime_listz).",
             parse_mode="markdown",
             disable_web_page_preview=True,
             reply_to_message_id=message.message_id,
